@@ -370,6 +370,7 @@ img {
   border-radius: 4px;
   margin-top: 4px;
   resize: none;
+  height: 120px;
 
   font-family: Roboto;
   font-size: 12px;
@@ -704,10 +705,6 @@ img {
   fill: var(--studio-prime-color);
 }
 
-/* .clients-icon {
-  fill: var(--icons-gray);
-} */
-
 .logo-1 {
   width: 45px;
   height: 50px;
@@ -865,6 +862,7 @@ img {
 .footer-flex {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .footer-box:first-child {
   margin-right: 70px;
